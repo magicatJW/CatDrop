@@ -49,6 +49,7 @@
 - `reports/history/2026-07-20-bilingual-markdown-docs.md`：所有 Markdown 的繁中／英文分類、翻譯、完整性驗證與 GitHub 推送。
 - `reports/history/2026-07-20-bilingual-markdown-ci.md`：雙語文件分支、Draft PR #1 與 Windows Python 3.11／3.12 遠端 CI 證據。
 - `reports/history/2026-07-20-devpost-project-sync.md`：Devpost version 6、repository URL、活動要求、桌面互動頁／JSON 與未提交邊界。
+- `reports/history/2026-07-20-devpost-docs-github-publish.md`：文件發布分支、Draft PR #3、本機測試與遠端雙版本 CI。
 
 ## 外部 review 產物
 
