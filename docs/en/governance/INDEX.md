@@ -28,4 +28,4 @@
 
 ## Reports
 
-`reports/current.md` is the only live report. `reports/history/` contains immutable reports for initial rebuild, path/runtime tooling, control-panel settings, image/all-types support, device LAN QR Code, Devpost/GitHub preparation, public release, CI validation, and bilingual Markdown documentation.
+`reports/current.md` is the only live report. `reports/history/` contains immutable reports for initial rebuild, path/runtime tooling, control-panel settings, image/all-types support, device LAN QR Code, Devpost/GitHub preparation, public release, CI validation, bilingual Markdown documentation, and bilingual Draft PR CI evidence.
