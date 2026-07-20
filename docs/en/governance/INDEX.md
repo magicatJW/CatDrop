@@ -28,4 +28,10 @@
 
 ## Reports
 
-`reports/current.md` is the only live report. `reports/history/` contains immutable reports for initial rebuild, path/runtime tooling, control-panel settings, image/all-types support, device LAN QR Code, Devpost/GitHub preparation, public release, CI validation, bilingual Markdown documentation, and bilingual Draft PR CI evidence.
+`reports/current.md` is the only live report. `reports/history/` contains immutable reports for initial rebuild, path/runtime tooling, control-panel settings, image/all-types support, device LAN QR Code, Devpost/GitHub preparation, public release, CI validation, bilingual Markdown documentation, bilingual Draft PR CI evidence, and the Devpost project sync.
+
+## External Review Artifacts
+
+- `C:\Users\CatPc\Desktop\CatDrop_Devpost_Action_Checklist_2026-07-20.html`: interactive review checklist.
+- `C:\Users\CatPc\Desktop\CatDrop_Devpost_Update_Report_2026-07-20.html`: update and gap report.
+- `C:\Users\CatPc\Desktop\CatDrop_Devpost_Todo_State.json`: user-confirmed state prioritized by later tasks.

@@ -1,10 +1,10 @@
 # Current Task Report
 
 - 日期：2026-07-20
-- objective：為 CatDrop 所有既有 Markdown 建立繁中與英文版本，分類整理並再次推送 GitHub。
-- scope：根目錄 8 份專案／治理 Markdown、`reports/current.md`、10 份既有 history report、本任務 history、`docs/zh-TW/`、`docs/en/`、README 導覽與 GitHub CI；不修改應用程式功能。
-- structure：governance 收納 README／RADS，project 收納 demo／Devpost／submission 文件，reports 收納 current 與 history；根目錄與 `reports/` 保留繁中治理正本。
-- output：每一份治理正本均建立 `docs/zh-TW/` 繁中鏡像與 `docs/en/` 英文對應；`DEVPOST_PROJECT_STORY.md` 額外完成繁中翻譯。
-- consistency rule：英文版只翻譯自然語言，不改動路徑、識別字、error code、commit hash、URL、版本與驗證數字；若語意衝突，以繁中正本為準。
-- validation：20 對／60 份 Markdown 成對、分類路徑、相對連結、嚴格 UTF-8 解碼與英文 CJK 掃描 PASS；本機完整診斷與 37/37 tests PASS；PR #1 已 squash merge 為 `143d0beeca6626fcd6e679bb2c3d98e36b92a09a`；`main` run `29736863156` SUCCESS。
-- status：complete；雙語文件已合併至 `main`，本機與 `origin/main` 已同步。
+- objective：將已確認的 CatDrop 狀態更新至 Devpost，建立互動式待辦確認頁與 HTML 報告。
+- scope：Devpost Project Story 與 repository URL、OpenAI Build Week 即時要求、桌面 HTML／JSON、RADS 與雙語鏡像；排除正式提交及應用程式功能變更。
+- output：Devpost project version `6`；桌面 `CatDrop_Devpost_Action_Checklist_2026-07-20.html`、`CatDrop_Devpost_Update_Report_2026-07-20.html`、`CatDrop_Devpost_Todo_State.json`。
+- Devpost result：Project Story 已加入 Public GitHub、MIT License、雙語文件與 Windows Python 3.11／3.12 CI 證據；repository URL 已設定並讀回；`submitted_at` 仍為空。
+- pending：Submitter Type、Country、Category、`/feedback` Session ID、demo video、團隊／媒體、實體裝置、standalone EXE、最後 review 與正式提交。
+- validation：Devpost 更新／讀回 PASS；互動頁載入、輸入、統計及 reload 暫存 PASS；報告載入 PASS；JSON parse PASS。
+- status：complete；尚未正式提交，未推送本輪文件變更。

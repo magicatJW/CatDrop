@@ -63,3 +63,11 @@
 - The originally English Devpost story also receives a complete Traditional Chinese translation.
 - English files are translations, not an independent decision source. Canonical Traditional Chinese wins on conflict.
 - Paths, identifiers, error codes, hashes, URLs, versions, and validation counts are not translated.
+
+## 2026-07-20 Devpost Project Sync and Interactive Review
+
+- Devpost updates are limited to the evidenced Project Story and Public GitHub repository URL. Existing `Built with`, video, team, and media fields are preserved; missing data is not inferred.
+- The Devpost project is now version `6`. Because `submitted_at` remains empty, it is a published draft associated with the event, not a formally submitted entry.
+- The story removes the obsolete future repository-publication item and adds MIT License, bilingual documentation, and Windows Python 3.11/3.12 CI evidence.
+- The Desktop review page auto-saves in browser `localStorage`. Cross-task governance uses the user-written/exported `CatDrop_Devpost_Todo_State.json`; browser-internal state is never assumed readable.
+- Formal submission, Submitter Type, Country, Category, `/feedback` Session ID, video, team, media, and physical-device evidence require BOSS input, confirmation, or separate authorization.

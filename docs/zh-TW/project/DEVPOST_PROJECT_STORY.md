@@ -62,6 +62,10 @@ Multipart form-data 需要明確的 UTF-8 處理，才能正確接收繁中來�
 - 產生 QR Code 前驗證 LAN URL
 - 內建環境診斷、輪替日誌、安裝腳本與 CI
 - Windows 原始碼版本通過 37 項自動化測試、GUI smoke test 與真實 LAN URL／QR Code runtime 驗證
+- Public GitHub repository 包含 MIT License 及完整繁中／英文文件
+- GitHub Actions 在 Windows Python 3.11 與 Python 3.12 均通過
+
+原始碼、安裝說明與驗證流程位於 [CatDrop 公開 repository](https://github.com/magicatJW/CatDrop)。
 
 核心流程保持簡單：
 
@@ -81,6 +85,6 @@ Codex 在搭配小範圍與具體驗證時最有價值。持續維護 README、�
 - 驗證打包後的單檔 Windows 執行檔
 - 加入選用的臨時存取碼
 - 改善傳輸進度與近期紀錄
-- 持續維護公開 repository 與明確開源授權
+- 持續改善公開文件與可重現的建置流程
 
 CatDrop 不打算成為另一個雲端儲存平台。它會持續專注於可信任私人網路內直接、易懂的檔案傳輸。

@@ -3,13 +3,12 @@
 ## 目前任務
 
 - 日期：2026-07-20
-- 階段：complete（雙語文件已合併至 `main`，GitHub CI 通過）
-- objective：為所有既有 Markdown 建立繁中／英文分類版本，驗證鏡像完整性後再次推送 GitHub。
-- scope：根目錄 8 份專案／治理 Markdown、`reports/current.md`、10 份既有 history report、新任務報告、`docs/zh-TW/`、`docs/en/` 與 GitHub CI；不修改應用程式功能。
-- output：根目錄與 `reports/` 保留繁中治理正本；雙語文件依 governance、project、reports 分類；英文版為完整語意翻譯。
-- boundary：repository 公開的是原始碼、測試與文件；`.venv`、資料庫、接收檔案、日誌、QR Code、EXE 與建置產物未上傳。
-- ignore audit：`.venv`、`__pycache__`、`data`、`logs`、`qrcodes`、`received_files`、EXE 與建置產物維持忽略。
-- GitHub account：GitHub App 與 GitHub CLI 均已驗證為 `magicatJW`；正式發布使用已驗證 SHA-256 的 portable GitHub CLI 2.96.0。
-- validation：20 對／60 份 Markdown、分類路徑、相對連結、嚴格 UTF-8 與英文 CJK 掃描 PASS；本機完整診斷與 37/37 tests PASS；PR #1 與 `main` merge commit `143d0beeca6626fcd6e679bb2c3d98e36b92a09a` 已合併；run `29736863156` SUCCESS。
-- blockers：無；Devpost 尚待欄位與正式活動提交。
-- Devpost：repository URL、YouTube URL、submitter type、country、category 與 `/feedback` Session ID 仍未提供；OpenAI Build Week 尚未正式提交。
+- 階段：complete（Devpost version 6 已讀回，桌面互動頁與報告已驗證）
+- objective：將目前已確認的 CatDrop 證據同步至 Devpost，列出待處理項目，並建立可由後續任務讀取的互動 HTML 與 JSON 狀態檔。
+- scope：Devpost Project Story、GitHub repository URL、活動要求檢索、桌面互動確認頁、HTML 報告、JSON 狀態檔與 RADS；不正式提交、不更動應用程式功能。
+- Devpost：project ID `1353105`、version `6`、state `published`、`submitted_at` 空白；repository URL 已讀回為 `https://github.com/magicatJW/CatDrop`。
+- deadline：2026-07-22 08:00（Asia/Taipei）；活動狀態 `submissions_open`。
+- validation：Devpost 更新與讀回 PASS；Project Story 過時發布項目已移除；HTML 以瀏覽器載入、輸入、統計與同 session reload 暫存驗證 PASS；報告頁載入與連結結構 PASS；桌面三個檔案存在且 JSON 可解析。
+- blockers：Submitter Type、Country、Category、`/feedback` Session ID、demo video、團隊／媒體確認、最新版 QR Code 與影像格式實體測試、standalone EXE、最後語氣 review 及正式提交授權。
+- persistence：後續任務優先讀取 `C:\Users\CatPc\Desktop\CatDrop_Devpost_Todo_State.json`；只存在瀏覽器 localStorage 的變更不能視為已取得證據。
+- boundary：未正式提交 Devpost，未更新影片、Built with、團隊、縮圖／照片，未推送本輪本機文件變更至 GitHub。

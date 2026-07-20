@@ -22,8 +22,6 @@ CatDrop 僅供可信任的私人區域網路使用，不包含 AI Agent、自動
 
 本專案在 OpenAI Build Week 使用 Codex 與 GPT-5.6 協作開發。Codex 用於檢索參考架構、拆分小步任務、實作與審查功能、建立回歸測試、診斷 Windows 行為，以及維護 README、決策、狀態、索引與不可變任務報告。所有產出均以正式 Windows 環境、自動化測試、GUI smoke test 或實體裝置證據驗證；缺少證據的項目不標記為 PASS。
 
-Devpost 專案故事草稿位於 `DEVPOST_PROJECT_STORY.md`，demo 分鏡位於 `DEMO_SCRIPT.md`，提交前檢查表位於 `SUBMISSION_CHECKLIST.md`。
-
 ## 控制台與設定
 
 檔案接收控制台支援：

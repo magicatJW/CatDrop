@@ -16,6 +16,8 @@
 - [x] GitHub Actions 設定存在
 - [x] Public GitHub repository 已發布：`https://github.com/magicatJW/CatDrop`
 - [x] MIT License 已建立，著作權人為 `magicatJW`
+- [x] Devpost Project Story 已更新為 version 6，並加入 repository URL、MIT、雙語文件與遠端 CI 證據
+- [x] GitHub Actions 在 Windows Python 3.11／3.12 通過
 
 ## BOSS 必須提供或決定
 
@@ -26,6 +28,7 @@
 - [ ] 公開 YouTube demo video URL
 - [ ] 實體手機掃描新版 QR Code
 - [ ] 確認縮圖與專案照片
+- [ ] 若非個人提交，確認團隊成員已接受 Devpost 邀請
 
 ## 正式提交前
 
@@ -36,3 +39,8 @@
 - [x] 公開 repository 附帶 BOSS 選定的授權條款
 - [ ] 填妥所有 required submission fields
 - [ ] 正式提交後確認 `submitted_at` 不再為空
+
+互動確認頁與固定狀態檔位於桌面：
+
+- `CatDrop_Devpost_Action_Checklist_2026-07-20.html`
+- `CatDrop_Devpost_Todo_State.json`

@@ -79,3 +79,11 @@
 - `DEVPOST_PROJECT_STORY.md` 原文為英文；分類目錄仍提供完整繁中翻譯與英文鏡像。
 - 英文文件為翻譯，不建立獨立決策來源；內容衝突時以根目錄繁中正本為準。
 - 不翻譯程式碼識別字、路徑、error code、commit hash、URL、技術名稱與測試數字。
+
+## 2026-07-20 Devpost 專案同步與互動確認頁
+
+- Devpost 只更新已有直接證據的 Project Story 與 Public GitHub repository URL；保留既有 `Built with`、影片、團隊與媒體欄位，不推測缺少資料。
+- Devpost project version 更新為 `6`；`submitted_at` 仍為空，因此狀態只能描述為公開草稿／活動關聯，不能宣稱已正式提交。
+- Project Story 移除「未來才公開 repository」的過時內容，加入 MIT License、雙語文件與 Windows Python 3.11／3.12 CI 證據。
+- 桌面互動確認頁以瀏覽器 `localStorage` 自動暫存；跨任務的治理來源是使用者明確寫出或匯出的 `CatDrop_Devpost_Todo_State.json`，不假設能直接讀取瀏覽器內部狀態。
+- 正式提交、Submitter Type、Country、Category、`/feedback` Session ID、影片、團隊、縮圖／照片與實體裝置驗證，均須由 BOSS 提供、確認或另行授權。

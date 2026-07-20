@@ -48,3 +48,10 @@
 - `reports/history/2026-07-20-github-ci-validation.md`：首次 CI 編碼失敗、UTF-8 根因修正、Python 3.11／3.12 PASS 與 Actions 版本治理。
 - `reports/history/2026-07-20-bilingual-markdown-docs.md`：所有 Markdown 的繁中／英文分類、翻譯、完整性驗證與 GitHub 推送。
 - `reports/history/2026-07-20-bilingual-markdown-ci.md`：雙語文件分支、Draft PR #1 與 Windows Python 3.11／3.12 遠端 CI 證據。
+- `reports/history/2026-07-20-devpost-project-sync.md`：Devpost version 6、repository URL、活動要求、桌面互動頁／JSON 與未提交邊界。
+
+## 外部 review 產物
+
+- `C:\Users\CatPc\Desktop\CatDrop_Devpost_Action_Checklist_2026-07-20.html`：可互動待辦確認頁。
+- `C:\Users\CatPc\Desktop\CatDrop_Devpost_Update_Report_2026-07-20.html`：本次更新與缺口報告。
+- `C:\Users\CatPc\Desktop\CatDrop_Devpost_Todo_State.json`：後續任務優先檢索的人工確認狀態。

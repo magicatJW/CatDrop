@@ -62,6 +62,10 @@ The all-file-types option required a clear security decision. Convenience does n
 - LAN URLs are verified before QR Code generation
 - Environment diagnostics, rotating logs, setup scripts, and CI configuration are included
 - The current Windows source build passes 37 automated tests, GUI smoke testing, and a real LAN URL/QR Code runtime check
+- The public GitHub repository includes an MIT License and complete Traditional Chinese and English documentation
+- GitHub Actions passes on Windows with Python 3.11 and Python 3.12
+
+The source, setup instructions, and validation workflow are available in the [public CatDrop repository](https://github.com/magicatJW/CatDrop).
 
 The core workflow remains simple:
 
@@ -81,6 +85,6 @@ Codex was most useful when paired with small scopes and concrete validation. Kee
 - Validate the packaged standalone Windows executable
 - Add an optional temporary access code
 - Improve transfer progress and recent-transfer history
-- Publish the repository with an explicit open-source license
+- Continue improving the public documentation and reproducible setup workflow
 
 CatDrop is not intended to become another cloud storage platform. It will remain focused on direct, understandable file transfer inside a trusted private network.

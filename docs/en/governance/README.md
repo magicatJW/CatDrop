@@ -22,8 +22,6 @@ CatDrop is limited to trusted private LANs. It does not include AI agents, autom
 
 Codex with GPT-5.6 was used to inspect the reference architecture, split work into verifiable tasks, implement and review features, create regression tests, diagnose Windows behavior, and maintain persistent RADS documentation. Results were checked in the real Windows environment with automated tests, GUI smoke tests, or physical-device evidence. Missing evidence is never reported as PASS.
 
-The Devpost story, demo script, and submission checklist are under [`../../en/project/`](../../en/project/).
-
 ## Control Panel and Settings
 
 The receiver console supports sortable columns, Ctrl/Shift/drag multi-selection, batch processing, on-demand verified QR Code generation, URL copying, and a separate settings window.
