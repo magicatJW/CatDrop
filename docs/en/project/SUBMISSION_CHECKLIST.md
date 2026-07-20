@@ -16,6 +16,8 @@ Deadline: 2026-07-22 08:00 Asia/Taipei.
 - [x] GitHub Actions configuration
 - [x] Public repository: `https://github.com/magicatJW/CatDrop`
 - [x] MIT License, copyright `magicatJW`
+- [x] Devpost Project Story updated to version 6 with repository URL, MIT, bilingual-documentation, and remote-CI evidence
+- [x] GitHub Actions passed on Windows Python 3.11 and 3.12
 
 ## BOSS Must Provide or Decide
 
@@ -26,6 +28,7 @@ Deadline: 2026-07-22 08:00 Asia/Taipei.
 - [ ] Public YouTube demo URL
 - [ ] Physical-phone scan of the newest QR Code
 - [ ] Thumbnail and project images
+- [ ] If this is not an individual submission, confirm every team member accepted the Devpost invitation
 
 ## Before Final Submission
 
@@ -36,3 +39,8 @@ Deadline: 2026-07-22 08:00 Asia/Taipei.
 - [x] Public repository includes the selected license
 - [ ] All required submission fields are complete
 - [ ] After submission, confirm `submitted_at` is no longer empty
+
+Interactive review page and fixed state file on the Desktop:
+
+- `CatDrop_Devpost_Action_Checklist_2026-07-20.html`
+- `CatDrop_Devpost_Todo_State.json`
