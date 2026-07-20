@@ -36,3 +36,4 @@
 - `reports/history/2026-07-20-device-lan-qrcode.md`：設備區網網址驗證、自動修復、QR Code 與網址複製。
 - `reports/history/2026-07-20-devpost-github-preparation.md`：Devpost 文案校正、GitHub 發布準備與提交缺口。
 - `reports/history/2026-07-20-github-public-local-preparation.md`：Public repository、MIT License、本機 Git 初始化、納管檢查與推送前阻塞。
+- `reports/history/2026-07-20-github-public-release.md`：GitHub CLI 驗證、Public repository 建立、main 推送、遠端一致性與 CI 結果。

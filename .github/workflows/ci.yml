@@ -7,6 +7,10 @@ on:
 jobs:
   validate:
     runs-on: windows-latest
+    # Windows runner 預設主控台編碼可能不是 UTF-8，診斷輸出包含繁體中文。
+    env:
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: "utf-8"
     strategy:
       matrix:
         python-version: ["3.11", "3.12"]

@@ -61,3 +61,12 @@
 - 本機 repository 使用 `main` 作為初始分支，首次提交只納入已辨識的專案、治理、測試與發布文件。
 - `.venv`、`__pycache__`、`data`、`logs`、`qrcodes`、`received_files`、EXE 與建置產物維持排除，不得因公開發布而納入版本控制。
 - 正式發布前必須再次確認 staged files、測試結果、GitHub CLI 登入狀態及 remote 目標；BOSS 完成 review 前禁止 push。
+
+## 2026-07-20 GitHub Public 正式發布
+
+- BOSS 完成最終確認後，建立 Public repository `magicatJW/CatDrop`，遠端網址為 `https://github.com/magicatJW/CatDrop`。
+- 初始分支直接使用 `main`；這是全新 repository，沒有既有 base branch，因此不建立無意義的初始 pull request。
+- 首次推送的 commit 為 `938b438b2a36d163c66830a988f7b1670a234cc4`，本機與 `origin/main` 雜湊一致。
+- 正式發布使用官方 GitHub CLI 2.96.0 Windows amd64 portable ZIP，下載後依 GitHub release metadata 驗證 SHA-256，再以 BOSS 的 `magicatJW` 帳號登入。
+- Public repository 仍維持私人 LAN 使用邊界；公開原始碼不代表服務可安全暴露至外網。
+- 首次 GitHub Actions run `29727741928` 在 Windows runner 以 `cp1252` 輸出繁體中文診斷文字時失敗；CI job 明確設定 `PYTHONUTF8=1` 與 `PYTHONIOENCODING=utf-8`，不修改診斷內容或降低測試範圍。
