@@ -2,8 +2,8 @@
 
 ## 文件語言
 
-- 繁體中文：本檔與根目錄 RADS 為治理正本；分類鏡像位於 [`docs/zh-TW/`](docs/zh-TW/)。
-- English: complete English documentation is organized under [`docs/en/`](docs/en/).
+- 繁體中文：根目錄 RADS 為治理正本；本分類位於 [`docs/zh-TW/`](../)。
+- English: complete English documentation is organized under [`docs/en/`](../../en/).
 - 文件分類：`governance`（治理）、`project`（專案與提交）、`reports`（任務報告）。
 
 CatDrop 是在 Windows 主要電腦上執行的私人區網檔案接收工具。任何連接到相同私人網路、且具備瀏覽器的裝置，都可直接將檔案傳送至主要電腦，不經外部雲端服務。
@@ -127,4 +127,4 @@ GitHub 的錯誤回報表單位於 `.github/ISSUE_TEMPLATE/bug_report.yml`，會
 
 ## 授權
 
-CatDrop 以 [MIT License](LICENSE) 公開授權。著作權聲明使用 GitHub 帳號 `magicatJW`；完整條款請參閱 `LICENSE`。
+CatDrop 以 [MIT License](../../../LICENSE) 公開授權。著作權聲明使用 GitHub 帳號 `magicatJW`；完整條款請參閱 `LICENSE`。
