@@ -37,3 +37,4 @@
 - `reports/history/2026-07-20-devpost-github-preparation.md`：Devpost 文案校正、GitHub 發布準備與提交缺口。
 - `reports/history/2026-07-20-github-public-local-preparation.md`：Public repository、MIT License、本機 Git 初始化、納管檢查與推送前阻塞。
 - `reports/history/2026-07-20-github-public-release.md`：GitHub CLI 驗證、Public repository 建立、main 推送、遠端一致性與 CI 結果。
+- `reports/history/2026-07-20-github-ci-validation.md`：首次 CI 編碼失敗、UTF-8 根因修正、Python 3.11／3.12 PASS 與 Actions 版本治理。

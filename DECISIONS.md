@@ -70,3 +70,4 @@
 - 正式發布使用官方 GitHub CLI 2.96.0 Windows amd64 portable ZIP，下載後依 GitHub release metadata 驗證 SHA-256，再以 BOSS 的 `magicatJW` 帳號登入。
 - Public repository 仍維持私人 LAN 使用邊界；公開原始碼不代表服務可安全暴露至外網。
 - 首次 GitHub Actions run `29727741928` 在 Windows runner 以 `cp1252` 輸出繁體中文診斷文字時失敗；CI job 明確設定 `PYTHONUTF8=1` 與 `PYTHONIOENCODING=utf-8`，不修改診斷內容或降低測試範圍。
+- UTF-8 修正後 run `29727962166` 在 Python 3.11 與 3.12 全部通過；為移除 Node.js 20 淘汰警告，採官方已穩定發布的 `actions/checkout@v6` 與 `actions/setup-python@v6`，不採 2026-07-20 當日剛發布的 v7 major release。
