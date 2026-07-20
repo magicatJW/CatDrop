@@ -1,0 +1,55 @@
+:root {
+  color-scheme: light;
+  --ink: #143f52;
+  --muted: #5d7079;
+  --accent: #dc6b32;
+  --paper: #ffffff;
+  --line: #d9e2e5;
+  --wash: #eef4f3;
+  font-family: "Microsoft JhengHei", "PingFang TC", system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; color: var(--ink); background: linear-gradient(165deg, #e6f0ef 0%, #f7f3eb 70%); }
+button, input { font: inherit; }
+.shell { width: min(100%, 620px); margin: auto; padding: 22px 18px 44px; }
+.topbar { display: flex; align-items: center; justify-content: space-between; }
+.brand { color: var(--ink); font-size: 1.25rem; font-weight: 900; letter-spacing: -.03em; }
+.language { border: 1px solid var(--ink); border-radius: 999px; padding: 8px 14px; color: var(--ink); background: transparent; font-weight: 700; }
+.intro { padding: 36px 4px 20px; }
+.eyebrow { margin: 0 0 8px; color: var(--accent); font-size: .82rem; font-weight: 800; letter-spacing: .12em; }
+h1 { margin: 0; font-size: clamp(2rem, 9vw, 3.25rem); letter-spacing: -.05em; }
+.intro > p:last-child { margin: 12px 0 0; color: var(--muted); line-height: 1.7; }
+/* 暫停狀態使用明確但不遮擋頁面的提示區塊。 */
+.upload-status { margin: 0 4px 16px; border: 1px solid #e3a6a2; border-radius: 12px; padding: 12px 14px; color: #8f2929; background: #fff1f0; font-weight: 800; line-height: 1.5; }
+.card { padding: 24px; border: 1px solid rgba(20,63,82,.1); border-radius: 24px; background: rgba(255,255,255,.92); box-shadow: 0 18px 50px rgba(20,63,82,.09); }
+.card > label:first-child { display: block; margin-bottom: 8px; font-weight: 800; }
+#name { width: 100%; min-height: 50px; border: 1px solid var(--line); border-radius: 12px; padding: 0 14px; color: var(--ink); background: #fff; }
+#name:focus, .language:focus, .submit:focus, .drop-zone:focus-within { outline: 3px solid rgba(220,107,50,.25); outline-offset: 2px; }
+.remember { display: flex; gap: 9px; align-items: center; margin: 13px 0 22px; color: var(--muted); font-size: .9rem; }
+.remember input { width: 18px; height: 18px; accent-color: var(--accent); }
+.drop-zone { min-height: 155px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; border: 2px dashed #9eb4b9; border-radius: 18px; background: var(--wash); cursor: pointer; text-align: center; }
+.drop-zone.drag { border-color: var(--accent); background: #fff3e9; }
+.drop-zone.disabled { cursor: not-allowed; opacity: .5; }
+.drop-zone span:last-child { color: var(--muted); font-size: .87rem; }
+.plus { color: var(--accent); font-size: 2rem; line-height: 1; }
+.file-list { display: grid; gap: 8px; margin-top: 14px; }
+.file-item { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 12px; border-radius: 10px; background: #f4f7f7; font-size: .85rem; }
+.file-details { min-width: 0; display: flex; gap: 12px; align-items: center; }
+.file-details span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.file-details span:last-child { flex: none; color: var(--muted); }
+.remove-file { flex: none; min-height: 34px; border: 1px solid #c4d0d3; border-radius: 9px; padding: 5px 10px; color: #9a302d; background: #fff; cursor: pointer; font-weight: 700; }
+.remove-file:focus { outline: 3px solid rgba(220,107,50,.25); outline-offset: 2px; }
+.submit { width: 100%; min-height: 52px; margin-top: 18px; border: 0; border-radius: 13px; color: #fff; background: var(--accent); font-weight: 800; cursor: pointer; }
+.submit:disabled { cursor: not-allowed; opacity: .45; }
+.progress-wrap { display: flex; align-items: center; gap: 10px; margin-top: 16px; }
+.progress { flex: 1; height: 8px; overflow: hidden; border-radius: 99px; background: var(--line); }
+#progressBar { width: 0; height: 100%; background: var(--accent); transition: width .15s; }
+.message { min-height: 1.4em; margin: 14px 0 0; font-weight: 700; text-align: center; }
+.message.error { color: #b02f2f; }
+.message.success { color: #16704b; }
+.support { padding: 26px 6px 0; color: var(--muted); text-align: center; line-height: 1.7; }
+.support h2 { margin: 0 0 8px; color: var(--ink); font-size: 1rem; }
+.support p { margin: 0; font-size: .82rem; }
+.size-hint { margin-top: 7px !important; }
+@media (max-width: 380px) { .card { padding: 19px; } .shell { padding-inline: 13px; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

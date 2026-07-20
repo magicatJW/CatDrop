@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#143f52">
+  <title>CatDrop</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <span class="brand" aria-label="CatDrop">CatDrop</span>
+      <button id="languageButton" class="language" type="button">EN</button>
+    </header>
+    <section class="intro">
+      <p class="eyebrow" data-i18n="eyebrow">私人區網傳檔</p>
+      <h1 data-i18n="title">傳送檔案到主要電腦</h1>
+      <p data-i18n="subtitle">請保持裝置與主要電腦連接至相同的私人網路。</p>
+    </section>
+    <!-- 暫停接收時保留網站服務，讓所有裝置能即時看到狀態。 -->
+    <p id="uploadStatus" class="upload-status" role="status" hidden></p>
+    <form id="uploadForm" class="card">
+      <label for="name" data-i18n="nameLabel">來源名稱</label>
+      <input id="name" name="name" type="text" maxlength="80" autocomplete="off" required data-placeholder="namePlaceholder" placeholder="例如：我的手機">
+      <label class="remember">
+        <input id="remember" type="checkbox">
+        <span data-i18n="remember">在這台裝置記住來源名稱</span>
+      </label>
+      <label id="dropZone" class="drop-zone" for="files">
+        <span class="plus">＋</span>
+        <strong data-i18n="choose">選擇檔案</strong>
+        <span data-i18n="chooseHint">可一次選取多個檔案</span>
+      </label>
+      <input id="files" name="files" type="file" multiple hidden>
+      <div id="fileList" class="file-list" aria-live="polite"></div>
+      <button id="submitButton" class="submit" type="submit" disabled data-i18n="upload">開始上傳</button>
+      <div id="progressWrap" class="progress-wrap" hidden>
+        <div class="progress"><div id="progressBar"></div></div>
+        <span id="progressText">0%</span>
+      </div>
+      <p id="message" class="message" aria-live="assertive"></p>
+    </form>
+    <section class="support">
+      <h2 data-i18n="supportedTitle">支援的檔案類型</h2>
+      <p id="supportedExtensions"></p>
+      <p id="sizeHint" class="size-hint"></p>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
