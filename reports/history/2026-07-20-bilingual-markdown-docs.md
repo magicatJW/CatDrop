@@ -6,5 +6,5 @@
 - structure：governance 收納 README／RADS，project 收納 demo／Devpost／submission 文件，reports 收納 current 與 history；根目錄與 `reports/` 保留繁中治理正本。
 - output：每一份治理正本均建立 `docs/zh-TW/` 繁中鏡像與 `docs/en/` 英文對應；`DEVPOST_PROJECT_STORY.md` 額外完成繁中翻譯。
 - consistency rule：英文版只翻譯自然語言，不改動路徑、識別字、error code、commit hash、URL、版本與驗證數字；若語意衝突，以繁中正本為準。
-- validation：20 對／60 份 Markdown 成對、分類路徑、相對連結、嚴格 UTF-8 解碼與英文 CJK 掃描 PASS；本機完整診斷與 37/37 tests PASS；Draft PR #1 run `29730287857` 的 Python 3.11／3.12 jobs 全部 PASS。
-- status：complete；分支已推送，Draft PR 等待 BOSS review 與合併。
+- validation：19 對／57 份 Markdown 成對、分類路徑、相對連結、嚴格 UTF-8 解碼與英文 CJK 掃描 PASS；完整診斷 PASS；37/37 tests PASS；GitHub Actions 待推送後驗證，missing evidence is not PASS。
+- status：validation completed locally；等待遠端 CI。
