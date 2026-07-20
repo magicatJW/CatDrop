@@ -50,6 +50,8 @@
 - `reports/history/2026-07-20-bilingual-markdown-ci.md`：雙語文件分支、Draft PR #1 與 Windows Python 3.11／3.12 遠端 CI 證據。
 - `reports/history/2026-07-20-devpost-project-sync.md`：Devpost version 6、repository URL、活動要求、桌面互動頁／JSON 與未提交邊界。
 - `reports/history/2026-07-20-devpost-docs-github-publish.md`：文件發布分支、Draft PR #3、本機測試與遠端雙版本 CI。
+- `reports/history/2026-07-21-devpost-video-update.md`：YouTube demo、Devpost version 7、桌面 JSON 同步與剩餘提交缺口。
+- `reports/history/2026-07-21-final-submission-github-publish.md`：正式提交、公開頁與影片稽核、GitHub 文件發布及 Session ID 證據邊界。
 
 ## 外部 review 產物
 

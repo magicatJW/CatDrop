@@ -2,14 +2,14 @@
 
 ## Current Task
 
-- Date: 2026-07-20
-- Stage: complete — the documentation branch was pushed; Draft PR #3 and remote CI passed.
-- Objective: sync evidenced CatDrop information to Devpost, enumerate pending work, and create interactive HTML plus a JSON state file readable by later tasks.
-- Scope: Devpost Project Story, GitHub repository URL, live event requirements, Desktop review page, HTML report, JSON state file, and RADS. No formal submission or application changes.
-- Devpost: project ID `1353105`, version `6`, state `published`, empty `submitted_at`; repository URL read back as `https://github.com/magicatJW/CatDrop`.
-- Deadline: 2026-07-22 08:00 Asia/Taipei; event status `submissions_open`.
-- Validation: Devpost update/read-back PASS; stale publication item removed; HTML browser validation PASS; local 37/37 tests PASS; all four push/pull_request Windows Python 3.11/3.12 jobs for Draft PR #3 PASS.
-- Blockers: Submitter Type, Country, Category, `/feedback` Session ID, demo video, team/media review, newest QR/image-format physical tests, standalone EXE, final voice review, and formal-submission authorization.
-- Persistence: later tasks prioritize `C:\Users\CatPc\Desktop\CatDrop_Devpost_Todo_State.json`; changes only in browser localStorage are not acquired evidence.
-- GitHub: branch `agent/devpost-docs-sync`, commit `b5aacb210ab22a84a61e50c0c3e63044a16e0315`, Draft PR `https://github.com/magicatJW/CatDrop/pull/3`; not merged into `main`.
-- Boundary: no formal Devpost submission; video, Built with, team, and media were not changed; Draft PR not merged.
+- Date: 2026-07-21
+- Phase: complete (Devpost submission is formal; pending documentation passed final audit)
+- Objective: verify the formal Devpost submission, public project page, demo video, and GitHub state, then publish unsynchronized governance and submission documents.
+- Scope: read-only Devpost and YouTube validation, GitHub documentation commit and push, RADS, and bilingual mirrors; no application or Devpost media changes.
+- Devpost: project ID `1353105`, state `published`, public page `https://devpost.com/software/catdrop`; `submitted_at` is 2026-07-21 01:12:14 Asia/Taipei.
+- Video: `https://youtu.be/auk6685Hy-8` loads publicly, duration 2:15, and embeds on the Devpost public page.
+- Repository: `https://github.com/magicatJW/CatDrop` is public and contains the MIT License, README, Codex/GPT-5.6 explanation, and Windows CI.
+- Session ID: submitted value `6a5ccd11-ddec-83ee-9711-716a53c5f775` matches the referenced ChatGPT conversation ID. Existing records do not prove that `/feedback` returned this value, so provenance validation is not PASS.
+- Pending: BOSS will upload or adjust Devpost project screenshots; if the event still allows edits, verify the submission field against the Session ID displayed after an actual `/feedback` submission.
+- Validation: formal Devpost submission and public page PASS; public YouTube visibility and under-three-minute duration PASS; local diff checks PASS; after push, local HEAD must match `origin/main` and GitHub Actions must PASS.
+- Boundary: current interfaces cannot read back custom Devpost answers verbatim. Submission acceptance proves required-field completeness, not Session ID provenance.

@@ -1,11 +1,11 @@
 # Current Task Report
 
-- 日期：2026-07-20
-- objective：將已確認的 CatDrop 狀態更新至 Devpost，建立互動式待辦確認頁與 HTML 報告。
-- scope：Devpost Project Story 與 repository URL、OpenAI Build Week 即時要求、桌面 HTML／JSON、RADS 與雙語鏡像；排除正式提交及應用程式功能變更。
-- output：Devpost project version `6`；桌面 `CatDrop_Devpost_Action_Checklist_2026-07-20.html`、`CatDrop_Devpost_Update_Report_2026-07-20.html`、`CatDrop_Devpost_Todo_State.json`。
-- Devpost result：Project Story 已加入 Public GitHub、MIT License、雙語文件與 Windows Python 3.11／3.12 CI 證據；repository URL 已設定並讀回；`submitted_at` 仍為空。
-- pending：Submitter Type、Country、Category、`/feedback` Session ID、demo video、團隊／媒體、實體裝置、standalone EXE、最後 review 與正式提交。
-- validation：Devpost 更新／讀回 PASS；互動頁驗證 PASS；本機 37/37 tests PASS；Draft PR #3 的 Windows Python 3.11／3.12 push 與 pull_request jobs 全部 PASS。
-- GitHub：`agent/devpost-docs-sync` 已推送，commit `b5aacb210ab22a84a61e50c0c3e63044a16e0315`，Draft PR `https://github.com/magicatJW/CatDrop/pull/3`。
-- status：complete；尚未正式提交 Devpost，Draft PR 尚未合併。
+- 日期：2026-07-21
+- objective：完成 CatDrop 最終提交稽核，並將尚未同步的 Devpost／RADS 文件發布至 GitHub `main`。
+- scope：Devpost、YouTube 與 GitHub 唯讀核對；文件提交與推送；不更動應用程式功能或 Devpost 媒體。
+- output：Devpost 已正式提交；公開作品頁與 2:15 demo video 可正常載入；15 個既有文件變更及本報告納入 GitHub 文件更新。
+- repository：Public repository、MIT License、README 建置／啟動／自檢說明、Codex／GPT-5.6 說明與 Windows CI 均已確認。
+- Session ID：`6a5ccd11-ddec-83ee-9711-716a53c5f775` 可確認為引用的 ChatGPT conversation ID，但無 `/feedback` 回傳憑證，因此不能判定來源驗證 PASS。
+- pending：Devpost 專案截圖由 BOSS 自行上傳；若仍可編輯，使用實際 `/feedback` 回傳值覆核 Session ID 欄位。
+- validation：Devpost submission/public page PASS；YouTube public/duration PASS；Git diff check PASS；推送後核對遠端 SHA 與 CI。
+- status：complete。
